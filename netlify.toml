@@ -2,18 +2,7 @@
   for = "/*.wasm"
   [headers.values]
     Content-Type = "application/wasm"
-    Content-Encoding = "gzip" # ファイルが圧縮されている場合のみ
-
-[[headers]]
-  for = "/*.gz"
-  [headers.values]
-    Content-Encoding = "gzip"
-
-[[headers]]
-  for = "/*.wasm"
-  [headers.values]
-    Content-Type = "application/wasm"
-    Content-Encoding = "br"  # Brotli圧縮の場合
+    Content-Encoding = "br"  # Brotli圧縮されている場合
 
 [[headers]]
   for = "/*.br"
