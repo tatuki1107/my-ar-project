@@ -9,7 +9,6 @@
   [headers.values]
     Content-Encoding = "gzip"
 
-コードをコピーする
 [[headers]]
   for = "/*.wasm"
   [headers.values]
